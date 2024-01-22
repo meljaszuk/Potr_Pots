@@ -1,3 +1,5 @@
+
+
 .header {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,20 @@
   width: 100%;
 z-index: 1;
 
+&__button-box {
+  display: flex;
+box-sizing: border-box;
+padding-left: 300px;
+padding-top: 50px;
 
+}
+
+&__move-down {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px blue solid;
+}
 &__price {
   @include font-price;
 

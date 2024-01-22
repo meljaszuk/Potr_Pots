@@ -93,6 +93,11 @@ left: 0;
   }
 
 }
+&__dont-display-on-mobile {
+  @media (max-width: 767px) {
+    display: none;
+  }
 
+}
 
 }
